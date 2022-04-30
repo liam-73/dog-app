@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.bar {
+    margin: 0;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:midnightblue
+}
+
+h1 {
+    color: white;
+}
+
+@keyframes spin {
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.spin {
+    font-size: 50px;
+    text-align: center;
+    animation: spin 1s linear infinite;
+    display: none;
+}
+
+.icon {
+    width: 1%;
+}
+
+.show {
+    display: block;
+}
